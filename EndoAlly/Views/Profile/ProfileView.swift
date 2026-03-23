@@ -522,15 +522,15 @@ struct OnboardingView: View {
             VStack(spacing: 12) {
                 ConsentRow(checked: $consentHealth,
                     title: "Health information",
-                    body: "I consent to EndoAlly collecting and storing my menstrual cycle data, symptoms, and health history. I understand this is sensitive health information and will be stored securely in Australia.")
+                    description: "I consent to EndoAlly collecting and storing my menstrual cycle data, symptoms, and health history. I understand this is sensitive health information and will be stored securely in Australia.")
 
                 ConsentRow(checked: $consentAI,
                     title: "AI processing",
-                    body: "I understand that when I use the AI chat or generate reports, my symptom data is sent to Anthropic (USA) for processing. Anthropic does not use this data for training. No data is shared for advertising.")
+                    description: "I understand that when I use the AI chat or generate reports, my symptom data is sent to Anthropic (USA) for processing. Anthropic does not use this data for training. No data is shared for advertising.")
 
                 ConsentRow(checked: $consentTerms,
                     title: "Terms & Privacy",
-                    body: "I have read and agree to the Terms and Conditions and Privacy Policy. I understand I can delete my account and all data at any time.")
+                    description: "I have read and agree to the Terms and Conditions and Privacy Policy. I understand I can delete my account and all data at any time.")
             }
 
             Text("By continuing you confirm you are 18 years of age or older.")
@@ -644,7 +644,7 @@ struct OnboardingView: View {
 struct ConsentRow: View {
     @Binding var checked: Bool
     let title: String
-    let body: String
+    let description: String
 
     var body: some View {
         Button(action: { checked.toggle() }) {
@@ -657,7 +657,7 @@ struct ConsentRow: View {
                     Text(title)
                         .font(.custom("DMSans-SemiBold", size: 14))
                         .foregroundColor(.charcoal)
-                    Text(body)
+                    Text(description)
                         .font(.custom("DMSans-Regular", size: 13))
                         .foregroundColor(.charcoal)
                         .multilineTextAlignment(.leading)
