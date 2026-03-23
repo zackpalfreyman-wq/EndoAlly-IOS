@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* EndoAllyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000001 /* EndoAllyApp.swift */; };
+		AA000002 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000002 /* Config.swift */; };
+		AA000003 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000003 /* Profile.swift */; };
+		AA000004 /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000004 /* Symptom.swift */; };
+		AA000005 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000005 /* CheckIn.swift */; };
+		AA000006 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000006 /* Report.swift */; };
+		AA000007 /* CyclePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000007 /* CyclePhase.swift */; };
+		AA000008 /* HistoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000008 /* HistoryModels.swift */; };
+		AA000009 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000009 /* SupabaseService.swift */; };
+		AA000010 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000010 /* AuthService.swift */; };
+		AA000011 /* AnthropicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000011 /* AnthropicService.swift */; };
+		AA000012 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000012 /* AppColors.swift */; };
+		AA000013 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000013 /* CardView.swift */; };
+		AA000014 /* ChipGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000014 /* ChipGroup.swift */; };
+		AA000015 /* SeverityGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000015 /* SeverityGrid.swift */; };
+		AA000016 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000016 /* AuthView.swift */; };
+		AA000017 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000017 /* LoginView.swift */; };
+		AA000018 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000018 /* SignUpView.swift */; };
+		AA000019 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000019 /* MainTabView.swift */; };
+		AA000020 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000020 /* HomeView.swift */; };
+		AA000021 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000021 /* CheckInView.swift */; };
+		AA000022 /* CheckInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000022 /* CheckInCard.swift */; };
+		AA000023 /* SymptomLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000023 /* SymptomLogView.swift */; };
+		AA000024 /* SymptomPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000024 /* SymptomPickerSheet.swift */; };
+		AA000025 /* SymptomRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000025 /* SymptomRowView.swift */; };
+		AA000026 /* CycleRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000026 /* CycleRingView.swift */; };
+		AA000027 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000027 /* ReportsView.swift */; };
+		AA000028 /* PDFReportGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000028 /* PDFReportGenerator.swift */; };
+		AA000029 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000029 /* HistoryView.swift */; };
+		AA000030 /* HistoryFormViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000030 /* HistoryFormViews.swift */; };
+		AA000031 /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000031 /* AssistantView.swift */; };
+		AA000032 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000032 /* ProfileView.swift */; };
+		AA000033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA000033 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA000001 /* EndoAllyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndoAllyApp.swift; sourceTree = "<group>"; };
+		FA000002 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FA000003 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FA000004 /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		FA000005 /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
+		FA000006 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		FA000007 /* CyclePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePhase.swift; sourceTree = "<group>"; };
+		FA000008 /* HistoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModels.swift; sourceTree = "<group>"; };
+		FA000009 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		FA000010 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FA000011 /* AnthropicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicService.swift; sourceTree = "<group>"; };
+		FA000012 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		FA000013 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FA000014 /* ChipGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipGroup.swift; sourceTree = "<group>"; };
+		FA000015 /* SeverityGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverityGrid.swift; sourceTree = "<group>"; };
+		FA000016 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		FA000017 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA000018 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA000019 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FA000020 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA000021 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		FA000022 /* CheckInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCard.swift; sourceTree = "<group>"; };
+		FA000023 /* SymptomLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomLogView.swift; sourceTree = "<group>"; };
+		FA000024 /* SymptomPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomPickerSheet.swift; sourceTree = "<group>"; };
+		FA000025 /* SymptomRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRowView.swift; sourceTree = "<group>"; };
+		FA000026 /* CycleRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRingView.swift; sourceTree = "<group>"; };
+		FA000027 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		FA000028 /* PDFReportGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReportGenerator.swift; sourceTree = "<group>"; };
+		FA000029 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FA000030 /* HistoryFormViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryFormViews.swift; sourceTree = "<group>"; };
+		FA000031 /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
+		FA000032 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA000033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA000099 /* EndoAlly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndoAlly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GG000000 /* EndoAlly */ = {
+			isa = PBXGroup;
+			children = (
+				FA000001 /* EndoAllyApp.swift */,
+				FA000002 /* Config.swift */,
+				GG000001 /* Models */,
+				GG000002 /* Services */,
+				GG000003 /* Views */,
+				GG000004 /* Components */,
+				FA000033 /* Assets.xcassets */,
+			);
+			path = EndoAlly;
+			sourceTree = "<group>";
+		};
+		GG000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA000003 /* Profile.swift */,
+				FA000004 /* Symptom.swift */,
+				FA000005 /* CheckIn.swift */,
+				FA000006 /* Report.swift */,
+				FA000007 /* CyclePhase.swift */,
+				FA000008 /* HistoryModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GG000002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA000009 /* SupabaseService.swift */,
+				FA000010 /* AuthService.swift */,
+				FA000011 /* AnthropicService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		GG000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				GG000010 /* Auth */,
+				GG000011 /* Main */,
+				GG000012 /* CheckIn */,
+				GG000013 /* Symptoms */,
+				GG000014 /* Cycle */,
+				GG000015 /* Reports */,
+				GG000016 /* History */,
+				GG000017 /* Assistant */,
+				GG000018 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		GG000004 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA000012 /* AppColors.swift */,
+				FA000013 /* CardView.swift */,
+				FA000014 /* ChipGroup.swift */,
+				FA000015 /* SeverityGrid.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		GG000010 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FA000016 /* AuthView.swift */,
+				FA000017 /* LoginView.swift */,
+				FA000018 /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		GG000011 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA000019 /* MainTabView.swift */,
+				FA000020 /* HomeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		GG000012 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				FA000021 /* CheckInView.swift */,
+				FA000022 /* CheckInCard.swift */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		GG000013 /* Symptoms */ = {
+			isa = PBXGroup;
+			children = (
+				FA000023 /* SymptomLogView.swift */,
+				FA000024 /* SymptomPickerSheet.swift */,
+				FA000025 /* SymptomRowView.swift */,
+			);
+			path = Symptoms;
+			sourceTree = "<group>";
+		};
+		GG000014 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				FA000026 /* CycleRingView.swift */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		GG000015 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				FA000027 /* ReportsView.swift */,
+				FA000028 /* PDFReportGenerator.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		GG000016 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				FA000029 /* HistoryView.swift */,
+				FA000030 /* HistoryFormViews.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		GG000017 /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				FA000031 /* AssistantView.swift */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		GG000018 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FA000032 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		GG000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA000099 /* EndoAlly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GG000100 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				GG000000 /* EndoAlly */,
+				GG000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TT000001 /* EndoAlly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = XC000002 /* Build configuration list for PBXNativeTarget "EndoAlly" */;
+			buildPhases = (
+				SS000001 /* Sources */,
+				BB000001 /* Frameworks */,
+				RR000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EndoAlly;
+			packageProductDependencies = (
+				PP000001 /* Supabase */,
+			);
+			productName = EndoAlly;
+			productReference = FA000099 /* EndoAlly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TT000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = XC000001 /* Build configuration list for PBXProject "EndoAlly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GG000100 /* Root */;
+			packageReferences = (
+				PKG000001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = GG000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TT000001 /* EndoAlly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RR000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000033 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SS000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* EndoAllyApp.swift in Sources */,
+				AA000002 /* Config.swift in Sources */,
+				AA000003 /* Profile.swift in Sources */,
+				AA000004 /* Symptom.swift in Sources */,
+				AA000005 /* CheckIn.swift in Sources */,
+				AA000006 /* Report.swift in Sources */,
+				AA000007 /* CyclePhase.swift in Sources */,
+				AA000008 /* HistoryModels.swift in Sources */,
+				AA000009 /* SupabaseService.swift in Sources */,
+				AA000010 /* AuthService.swift in Sources */,
+				AA000011 /* AnthropicService.swift in Sources */,
+				AA000012 /* AppColors.swift in Sources */,
+				AA000013 /* CardView.swift in Sources */,
+				AA000014 /* ChipGroup.swift in Sources */,
+				AA000015 /* SeverityGrid.swift in Sources */,
+				AA000016 /* AuthView.swift in Sources */,
+				AA000017 /* LoginView.swift in Sources */,
+				AA000018 /* SignUpView.swift in Sources */,
+				AA000019 /* MainTabView.swift in Sources */,
+				AA000020 /* HomeView.swift in Sources */,
+				AA000021 /* CheckInView.swift in Sources */,
+				AA000022 /* CheckInCard.swift in Sources */,
+				AA000023 /* SymptomLogView.swift in Sources */,
+				AA000024 /* SymptomPickerSheet.swift in Sources */,
+				AA000025 /* SymptomRowView.swift in Sources */,
+				AA000026 /* CycleRingView.swift in Sources */,
+				AA000027 /* ReportsView.swift in Sources */,
+				AA000028 /* PDFReportGenerator.swift in Sources */,
+				AA000029 /* HistoryView.swift in Sources */,
+				AA000030 /* HistoryFormViews.swift in Sources */,
+				AA000031 /* AssistantView.swift in Sources */,
+				AA000032 /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.endoally.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.endoally.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		XC000001 /* Build configuration list for PBXProject "EndoAlly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000001 /* Debug */,
+				BC000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		XC000002 /* Build configuration list for PBXNativeTarget "EndoAlly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000003 /* Debug */,
+				BC000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		PKG000001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PP000001 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKG000001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = PROJ0001 /* Project object */;
+}
